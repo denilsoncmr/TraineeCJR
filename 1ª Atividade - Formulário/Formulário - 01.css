@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topo{
+    height: 7rem;
+    width: 100%;
+    display: flex;
+    border: 1px solid;
+}
+
+.imagem{
+    align-content: center;
+    height: 6rem;
+
+}
+
+.nsocio{
+    display: flex;
+    text-align: center;
+    width: 70%;
+    background-color: rgb(207, 55, 55);
+    justify-content: center;
+    align-items: center;
+
+}
+.login{
+    display: flex;
+    background-color: black;
+    text-align: center;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+
+}
+h1#somos{
+    text-align: center;
+    color: white;
+}
+h2#login{
+    text-align: center;
+    color: white;
+}
+h2#dados{
+    text-align: center;
+    color: black;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.corpo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+form{
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+label{
+    width: 60%;
+}
+input{
+    float: center;
+    height: 25px;
+    border: solid;
+    border-bottom: 3px solid;
+    border-right: 3px solid;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
